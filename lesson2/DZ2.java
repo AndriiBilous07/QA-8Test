@@ -13,14 +13,14 @@ public class DZ2 //Создать строку string = "Testing, is my favourit
 
 
                         String text0 = "Testing, is my favourite job";
-                        String word1 = "(Testing)" + "7" = "(sewen)";
-                        String word2 = "(is)" + "2" = "(two)";
-                        String word3 = "(my)" + "2" = "(two)";
-                        String word4 = "(favourite)" + "9" = "(nine)";
-                        String word5 = "(job)" + "3" = "(three)";
+                        String word1 = "(Testing) + 7 = (sewen)";
+                        String word2 = "(is) + 2 = (two)";
+                        String word3 = "(my) + 2 = (two)";
+                        String word4 = "(favourite) + 9 = (nine)";
+                        String word5 = "(job) + 3 = (three)";
                         System.out.println (false);
 
-                        // Я не можу зрозуміти що за помилкивиникають!!!
+                        //
 
 
                 }
