@@ -17,25 +17,17 @@ public class DZ3 //При применении к массиву строк по
 // Решить данную задачу с учетов верхнего и нижнего регистра символа 'a'.
 
 {
-    public static void main(String[] args)
+    public static void main(String[] args) {
 
-    { String forSplit1 = "Completely random text in English. In it, we just need to " +
-            "determine how many times the character 'a' occurs there. " +
-            "And we can use the split method and the length method";
-        String[] wordsPlace = forSplit1.split("a");
-        System.out.println(wordsPlace[0]);
-        System.out.println(wordsPlace[1]);
-        System.out.println(wordsPlace[7]);
-        //System.out.println(wordsPlace[8]);
-        System.out.println("Completely random text in English. In it, we just need to " +
-                "determine how many times the character 'a' occurs there. " +
-                "And we can use the split method and the length method" + wordsPlace[7].length());
+        String text = "Completely random text in English. In it, we just need todetermine" +
+                " how many times the character 'a' occurs there.And we can " +
+                "use the split method and the length method";
+        System.out.println("text" + text.length());
+        String[] words = text.split("a");
+        System.out.println("text" + words.length);
 
 
 
+    }
 
-
-
-
-            }
 }
