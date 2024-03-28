@@ -17,27 +17,35 @@ public class DZ6 //Используя оператор switch написать �
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Яка програма вас цікавить?");
-        System.out.println("intelliJ IDEA");
+        System.out.println("idea");
         System.out.println("git");
         System.out.println("java");
         String progekt = scanner.nextLine();
         switch (progekt.toLowerCase()) {
-            case("intelliJ IDEA"):
+            case("idea"):
             case ("git"):
             case ("java"):
-            default:
-                System.out.println("такой программы не существует!!!");
                 System.out.println("Яка у вас OC?");
-                System.out.println("Linux");
-                System.out.println("macOS");
-                System.out.println("Windows");
-            String result = scanner.nextLine();
-            switch (result){
-                case ("Linux"):
-                case ("macOs"):
-                case ("Windows"):
-                default:
-                    System.out.println("такой ОС не существует!!!");
+            case ("Linux"):
+            case ("macOS"):
+            case ("windows"):
+                String scannerFromLine = scanner.nextLine();
+                if (scannerFromLine.equals("intelliJ IDEA")) ;
+                else if (scannerFromLine.equals("linux")) {
+                    System.out.println("https://www.jetbrains.com/ru-ru/idea/download/?section=windows");}
+
+                 if (scannerFromLine.equals("macOS")) {
+                System.out.println("https://www.jetbrains.com/ru-ru/idea/download/?section=windows"); }
+
+                 if (scannerFromLine.equals("windows")) {
+                    System.out.println("https://www.jetbrains.com/ru-ru/idea/download/?section=windows"); }
+
+
+
+
+
+
+
 
 
             }
@@ -46,4 +54,3 @@ public class DZ6 //Используя оператор switch написать �
 
         }
     }
-}
