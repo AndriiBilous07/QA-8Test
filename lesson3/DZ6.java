@@ -22,23 +22,63 @@ public class DZ6 //Используя оператор switch написать �
         System.out.println("java");
         String progekt = scanner.nextLine();
         switch (progekt.toLowerCase()) {
-            case("idea"):
-            case ("git"):
-            case ("java"):
+            case ("idea"):
                 System.out.println("Яка у вас OC?");
-            case ("Linux"):
+            case ("linux"):
             case ("macOS"):
             case ("windows"):
                 String scannerFromLine = scanner.nextLine();
-                if (scannerFromLine.equals("intelliJ IDEA")) ;
+                if (scannerFromLine.equals("idea")) ;
                 else if (scannerFromLine.equals("linux")) {
-                    System.out.println("https://www.jetbrains.com/ru-ru/idea/download/?section=windows");}
+                    System.out.println("https://www.jetbrains.com/ru-ru/idea/download/?section=windows");
+                }
 
-                 if (scannerFromLine.equals("macOS")) {
-                System.out.println("https://www.jetbrains.com/ru-ru/idea/download/?section=windows"); }
+                if (scannerFromLine.equals("macOS")) {
+                    System.out.println("https://www.jetbrains.com/ru-ru/idea/download/?section=windows");
+                }
 
-                 if (scannerFromLine.equals("windows")) {
-                    System.out.println("https://www.jetbrains.com/ru-ru/idea/download/?section=windows"); }
+                if (scannerFromLine.equals("windows")) {
+                    System.out.println("https://www.jetbrains.com/ru-ru/idea/download/?section=windows");
+                }
+                break;
+
+            case ("git"):
+                System.out.println("Яка у вас OC?");
+                String scannerFromLine1 = scanner.nextLine();
+                if (scannerFromLine1.equals("git")) ;
+                else if (scannerFromLine1.equals("linux")) {
+                    System.out.println("https://git-scm.com/downloads");
+                }
+
+                if (scannerFromLine1.equals("macOS")) {
+                    System.out.println("https://git-scm.com/downloads");
+                }
+
+                if (scannerFromLine1.equals("windows")) {
+                    System.out.println("https://git-scm.com/downloads");
+                }
+                break;
+            case ("java"):
+                System.out.println("Яка у вас OC?");
+                String scannerFromLine0 = scanner.nextLine();
+                if (scannerFromLine0.equals("java")) ;
+                else if (scannerFromLine0.equals("linux")) {
+                    System.out.println("https://www.oracle.com/cis/java/technologies/downloads/");
+                }
+
+                if (scannerFromLine0.equals("macOS")) {
+                    System.out.println("https://www.oracle.com/cis/java/technologies/downloads/");
+                }
+
+                if (scannerFromLine0.equals("windows")) {
+                    System.out.println("https://www.oracle.com/cis/java/technologies/downloads/");
+                }
+                break;
+            default:
+                System.out.println("такої програми не існує");
+                break;
+
+
 
 
 
