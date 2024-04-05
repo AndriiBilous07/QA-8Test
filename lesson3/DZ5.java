@@ -11,9 +11,13 @@ public class DZ5 //Написать программу, используя те�
 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-
-
+        int numb = scanner.nextInt();
+        int numb1= scanner.nextInt();
+        System.out.println( numb + numb1);
+        System.out.println( numb - numb1);
+        System.out.println( numb / numb1);
+        System.out.println( numb * numb);
+        System.out.println( numb % numb1);
 
     }
 }

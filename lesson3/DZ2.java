@@ -15,7 +15,11 @@ public class DZ2 //Пользователь вводит с клавиатуры
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
-        System.out.println ();
+        { if  (a + b + c + a);
+        System.out.println("можна вивести трикутник");}
+        {
+        if (a != b != c != a);
+        System.out.println("не можливий трикутник");}
     }
 }
 
