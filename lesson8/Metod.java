@@ -1,12 +1,13 @@
 package lesson8;
 /*Написати метод, який приймає в якості параметра масив цілого чисел.
 И выводит на экран все четные числа списком, а также нечетные числа списком.*/
-public class  Metod  {
-    public String name;
-    public int number;
-    public int numberReturn (int masiv)
-    { return masiv - number; }
-   int [] numb = {123456789};
-
+public class  Metod {
+public int [] metodComeback ( int[] qwerty) {
+    int[] sum = qwerty;
+    return sum;
+  /*  for (int i = 0; i < qwerty.length; i++) ;*/
 }
+
+}   // В принципі мабуть воно працє, але мені здається що щось не так і взагалі
+// не те зробив що треба, і не розумію що не так.
 
