@@ -8,7 +8,7 @@ public class DZ2 //Пользователь вводит с клавиатуры
 // построения треугольника по трем сторонам).
 
 {
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
 
 
         Scanner scanner = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class DZ2 //Пользователь вводит с клавиатуры
         {
         if (a != b != c != a);
         System.out.println("не можливий трикутник");}
-    }
+    }     */
 }
 
 
