@@ -17,16 +17,35 @@ public class Dz3 /*• Даний квадрат 5х5, де програма в�
 • Уражену ціль відзначити як x.
 • Завдання повинно бути виконане за допомогою масивів (НЕ використовуйте інтерфейси List, Set, Map).*/ {
     public static void main(String[] args) {
+
         char[][] game = new char[5][5];
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < game.length; i++) {
-            for (int l = 0; l < game.length; l++) {
-                game[i][l] = '-';
+        char simvol = '-';
+        System.out.println("All Set. Get ready to rumble!");
+
+            for (int i = 0; i < game.length; i++) {
+                for (int l = 0; l < game[i].length; l++) {
+                    System.out.print(simvol);
+                    if (i == l || l == 0 || l == game[i].length - 1) {
+                        System.out.print(" ");
+                    } else{
+                        System.out.print(" ");
+                    }
+
+                }
+                System.out.println();
             }
         }
-    }
+
 }
+
+
+
+
+
+
+
 
        /* for (int i = 0; i < number; i++) {
             for (int l = 0; l < number; l++) {
@@ -55,3 +74,16 @@ public class Dz3 /*• Даний квадрат 5х5, де програма в�
     }
 
 }  */
+
+/*System.out.println(a);
+                int pole = (5);
+                int pole2 = (5);
+                while (true){
+                    int w = pole;
+                    int e = pole2;
+                    System.out.println(w);
+                    System.out.println(e);
+                }*/
+
+/* int a = scanner.nextInt();
+               int b = random.nextInt();*/
