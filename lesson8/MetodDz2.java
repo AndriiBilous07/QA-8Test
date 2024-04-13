@@ -1,4 +1,4 @@
-package lesson8dzmetod2;
+package lesson8;
 
 public class MetodDz2  /* Написать перегруженный метод, который может:
 
