@@ -10,18 +10,22 @@ public class Dz2  /*Массив заполняется случайными ч�
 Новый полученный массив вывести на экран.
 */ {
     public static void main(String[] args) {
-        Random random = new Random(1000);
-        int[][] masiv = new int[5][5];
+        Random random = new Random();
+        int[][] masiv = new int[5][1];
         int[] masiv2 = new int[5];
         System.out.println("Максимальні значення кожного рядка:");
-        for (int i = 0; i < masiv2.length; i++) {
-            System.out.println("Рядок " + (i + 1) + ": " + masiv2[i]);
-            for (int q = 0; q < 5; q++) {
-                for (int j = 0; j < 5; j++) {
-                    masiv[i][j] = random.nextInt(1001);
+        for (int i = 0; i < masiv.length; i++) {
+            int max = Integer.MIN_VALUE;
+            for (int j = 0; j < masiv[i].length; j++) {
+                masiv[i][j] = random.nextInt(1001);
+                if (masiv[i][j] > max) {
+                    max = masiv[i][j];
+                        masiv2[i] = max;
+                        System.out.println("Рядок " + (i + 1) + ": " + masiv2[i]);
+                    }
                 }
             }
 
         }
     }
-}
+
